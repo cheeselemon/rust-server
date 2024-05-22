@@ -1,5 +1,3 @@
-
-
 services:
   rust-server:
     image: didstopia/rust-server:latest
