@@ -5,7 +5,8 @@ services:
     env_file:
       - .env
     ports:
-      - "28015:28015"
+      - "28015:28015/tcp"
+      - "28015:28015/udp"
       - "28016:28016"
     volumes:
       - ./rust-data:/steamcmd/rust
