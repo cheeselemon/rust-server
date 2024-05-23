@@ -1,6 +1,17 @@
 
-sudo docker compose up -d
+### start 
 
-sudo docker compose down
+`sudo docker compose up -d`
 
-sudo docker logs --follow rust-server
+
+### stop & remove
+
+`sudo docker compose down`
+
+### follow logs
+
+`sudo docker logs --follow rust-server`
+
+### send a command to save 
+
+`sudo docker exec rust-server save`
